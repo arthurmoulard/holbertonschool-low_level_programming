@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(void)
 {
-	printf("char : %zu octet\n", sizeof(char));
-	printf("int : %zu octet\n", sizeof(int));
-	printf("long int : %zu octet\n", sizeof(long int));
-	printf("long long int : %zu octet\n", sizeof(long long int));
-	printf("float : %zu octet\n", sizeof(float));
+	printf("size of a char \n", sizeof(char));
+	printf("size of a int \n", sizeof(int));
+	printf("size of a long int \n", sizeof(long int));
+	printf("size of a long long int \n", sizeof(long long int));
+	printf("size of a float \n", sizeof(float));
 
 	return 0;
 }
