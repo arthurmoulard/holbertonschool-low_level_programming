@@ -1,28 +1,33 @@
-*0;276;0c#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* betty style doc for function main goes there */
+/**
+ * main - n is greater positive, negative or zero
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int n,der;
+	int n;
+	int lastD;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	der = n % 10;
-	
-       	if (der > 5)
+	lastD = n % 10;
+
+	if (lastD > 5)
 	{
-		printf ("der of %d is %d and is greater than 5\n", n, der);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastD);
 	}
-	else if (der < 6 && lastD != 0)
+	else if (lastD < 6 && lastD != 0)
 	{
-		printf ("der of %d is %d and is less than 6 and not 0\n", n, der);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastD);
 	}
 	else
 	{
-		printf ("der of %d and is 0\n", n, der);
+		printf("Last digit of %d is %d and is 0\n", n, lastD);
 	}
+
 	return (0);
 }
