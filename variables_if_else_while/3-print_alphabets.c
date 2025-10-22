@@ -13,7 +13,6 @@ int main(void)
 
         alphabet++;
     }
-
     char alphabet = 'A';
 
     while (alphabet <='Z')
