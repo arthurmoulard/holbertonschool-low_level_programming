@@ -10,13 +10,13 @@ int main(void)
 {
 	int main(void);
 {
-	char alphabet = 'z';
+	char tebahpla = 'z';
 
-	while (alphabet <= 'a')
+	while (tebahpla <= 'a')
 	{
-		putchar(alphabet);
+		putchar(tebahpla);
 
-		alphabet++;
+		tebahpla++;
 	}
 }
 
