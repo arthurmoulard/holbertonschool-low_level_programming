@@ -1,17 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- * main - Prints numbers.
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char num = '0'
+	char c;
 
-	while (num <= '9')
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(num);
-
-		num++;
+	putchar(c);
 	}
+	putchar('\n');
+	return (0);
 }
