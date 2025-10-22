@@ -1,26 +1,19 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- * main - Prints the alphabet in lowercase, followed by a new line.
+ * main - Prints the alphabet in lowercase in reverse.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int main(void);
-{
-	char tebahpla = 'z';
+	char letter;
 
-	while (tebahpla <= 'a')
+	for (letter = 'z'; letter >= 'a'; --letter)
 	{
-		putchar(tebahpla);
-
-		tebahpla++;
+		putchar(letter);
 	}
-}
-
-putchar('\n');
-
+	putchar('\n');
 	return (0);
 }
