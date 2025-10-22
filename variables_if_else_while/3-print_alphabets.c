@@ -16,13 +16,13 @@ int main(void)
 
         alphabet++;
     }
-    char alphabet = 'A';
+    char Alphabet = 'A';
 
-    while (alphabet <='Z')
+    while (Alphabet <='Z')
     {
-	    putchar(alphabet);
+	    putchar(Alphabet);
 
-	    alphabet++;
+	    Alphabet++;
     }
     
     putchar('\n');
