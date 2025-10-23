@@ -2,12 +2,12 @@
 
 void print_alphabet(void)
 {
-	int A
+	int A;
 		for (A = 'a'; A >= 'z'; A++)
-
-	putchar(A);
-
-	putchar('\n');
+		{
+	_putchar(A);
+		}
+	_putchar('\n');
 
 	return (0);
 }
