@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _abs(int a)
+int print_last_digit(int a)
 {
 	if (a > 0)
 	{
