@@ -3,5 +3,7 @@
 
 int mul(int a, int b)
 {
-	printf("a x b =%d\n", a * b);
+	int result;
+	result = a * b;
+	return result;
 }
