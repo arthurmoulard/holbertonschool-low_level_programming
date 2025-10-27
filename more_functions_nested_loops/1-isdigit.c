@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _islower _ checks if c is a digit
- *@c:the character to check
- *
+ * _islower- checks if c is a digit
+ *@c: the character to check
+ *Description: this function checks for a digit
  *Return 1 if c is a digit, 0 otherwise
  */
 int _isdigit(int c)
