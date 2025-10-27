@@ -2,9 +2,11 @@
 
 void print_numbers(void)
 {
-	for(void >= '0' && void <= '9'; void++)
+	int i;
+	
+	for(i >= '0' && i <= '9'; i++)
 	{
-		_putchar(void)
+		_putchar(i)
 	}
 	_putchar('\n')
 }
