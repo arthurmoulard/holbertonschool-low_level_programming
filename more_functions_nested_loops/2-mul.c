@@ -3,5 +3,5 @@
 
 int mul(int a, int b)
 {
-	printf("%d\n", mul(a, b));
+	printf("a x b =%d\n", a * b);
 }
