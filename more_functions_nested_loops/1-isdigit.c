@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
+/**
+ * _islower _ checks if c is a digit
+ *@c:the character to check
+ *
+ *Return 1 if c is a digit, 0 otherwise
+ */
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
