@@ -3,12 +3,16 @@
 void more_numbers(void)
 {
 	int n
-	int i = 1
-		for (n >= '0' && n <= '9'; n++)
+	int i
+
+	for (n = 0; n < 10; i++)
+	{
+		for (i = 0; i < 15; j++)
 		{
-			for (n >= '0'; n <= '9'; n++)
-				_putchar(n)
-					if (n >= '9')
-						_putchar(i++)
-							}
+			if (i >= 10)
+				_putchar(i / 10 + '0');
+			_putchar(i % 10 + '0');
+		}
+		_putchar('\n');
+	}
 }
