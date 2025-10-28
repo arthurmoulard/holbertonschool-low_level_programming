@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 
 /**
 * print_line- ecris des lignes pour chaque unite
@@ -19,7 +19,6 @@ void print_line(int n)
 		for (i = 0; i < n; i++)
 		{
 		for (j = 0; j < n; j++)
-	       
 		_putchar(' ');
 		}
 		_putchar('\\');
