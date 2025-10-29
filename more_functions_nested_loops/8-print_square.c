@@ -1,0 +1,18 @@
+#include "main.h"
+
+void print_square(int size)
+{
+	if (size <= 0)
+	{
+		_putchar('\n');
+			}
+	for (size = 0; size < 10; size++)
+	{
+		for (size = 0; size < 10; size++)
+	{
+		_putchar('#');
+			}
+	_putchar('\n');
+		}
+
+}
