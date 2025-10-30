@@ -1,0 +1,13 @@
+#include "main.h"
+#include <stdio.h>
+
+void _puts(char *str)
+{
+	int a;
+		for (a = 0; *str != '\0'; a++)
+		{
+			_putchar(*str);
+			str++;
+		}
+		_putchar('\n');
+}
