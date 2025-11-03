@@ -17,6 +17,5 @@ char _strchr(chars, char c)
         s++;
     }
      if (c == '\0')
-        return s;
     return NULL;
 }
