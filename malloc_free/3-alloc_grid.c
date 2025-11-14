@@ -45,6 +45,3 @@ int **aloc_grid(int width, int height)
 	}
 	return (tab);
 }
-
-
-}
