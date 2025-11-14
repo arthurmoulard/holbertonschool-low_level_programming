@@ -1,6 +1,5 @@
-#include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * **alloc_grid - creates a two dimensional array of ints
@@ -10,28 +9,27 @@
  * Return: pointer to the created matrix (Success)
  * or NULL (Error)
  */
-int **aloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
-	int j;
-	int i;
-	int **tab;
+	int **arr;
+	int i, j;
 
 	if (height <= 0 || width <= 0)
 		return (NULL);
 
-	tab = (int **) malloc(sizeof(int *) * height);
+	arr = (int **) malloc(sizeof(int *) * height);
 
-	if (tab == NULL)
+	if (arr == NULL)
 		return (NULL);
 
 	for (i = 0; i < height; i++)
 	{
-		tab[i] = (int *) malloc(sizeof(int) * width);
-		if (tab[i] == NULL)
+		arr[i] = (int *) malloc(sizeof(int) * width);
+		if (arr[i] == NULL)
 		{
-			free(tab);
+			free(arr);
 			for (j = 0; j <= i; j++)
-				free(tab[j]);
+				free(arr[j]);
 			return (NULL);
 		}
 	}
@@ -40,8 +38,8 @@ int **aloc_grid(int width, int height)
 	{
 		for (j = 0; j < width; j++)
 		{
-			tab[i][j] = 0;
+			arr[i][j] = 0;
 		}
 	}
-	return (tab);
+	return (arr);
 }
